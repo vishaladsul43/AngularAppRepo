@@ -27,8 +27,8 @@ echo "testing"
     }
     stage("deployment"){
         steps{
-            bat "del /q /s c:\\inetpub\\wwwroot\\NodeDemo\\*"
-            bat "xcopy /E /Y /I dist\\NodeDemo\\browser* c:\\inetpub\\wwwroot\\NodeDemo\\*"
+            bat "del /q /s c:\\inetpub\\wwwroot\\Angular\\*"
+            bat "xcopy /E /Y /I dist\\NodeDemo\\browser* c:\\inetpub\\wwwroot\\Angular\\*"
         }
     }
  }
